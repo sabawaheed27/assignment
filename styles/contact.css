@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100vh;   
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    padding: 24px;
+    background-color: rgb(184, 135, 102);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a {
+    text-decoration: none;
+    justify-content:space-evenly;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(237, 193, 138);
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: beige; 
+}
+
+
+.active, .btn:hover {
+    background-color: #d9a577;
+}
+
+.logo {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.8rem;
+}
+
+.hero-image {
+    background-image: url(../images/background-img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment:fixed ; 
+} 
+
+.main-container {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto; 
+    font-size: 20px;
+    position: relative;
+    top: 170px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 2px; 
+    grid-template-columns: repeat(2, 1fr);
+    background:  rgb(184, 135, 102);;
+    box-shadow: 0 -5px 3px -1px rgb(168, 110, 10), 0 5px 3px 4px rgb(128, 76, 33);
+    padding-left: 20px ;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .main-container{
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .navbar{
+        flex-direction: column;
+    }   
+}

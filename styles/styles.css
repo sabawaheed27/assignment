@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-color: hsl(210, 89%, 71%); 
+    margin: 0;
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.navbar li {
+    list-style: none;
+    margin: 30px; 
+}
+
+.navbar li a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.navbar li a:hover {
+    color: hsl(323, 90%, 28%);
+    transition: .4s;
+}
+
+.main__content {
+    background-image:url(../images/image3.jpg); 
+    opacity: 0.9;  
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+form {
+    max-width: 800px; 
+    border: 2px solid rgb(8, 7, 7);
+} 
+
+.input-group {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+    background:white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 10px soild rgb(16, 14, 14);
+    color: rgb(21, 19, 19);
+    background: white;
+    font-size: 10px;
+}
+
+label {
+    height: 100%; 
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: rgb(16, 15, 9);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button {
+    padding: 10PX 0;
+    color: black;
+    outline: none;
+    background: transparent;
+    border: 1px soild ;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    margin: 24px;
+
+}
+
+@media screen and (max-width: 700px) {
+   label {
+      width: 100%;
+      
+    }
+
+}
