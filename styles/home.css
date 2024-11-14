@@ -20,7 +20,7 @@ body {
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 900;   
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 2rem;
 } 
 
 .header__page-tittle {
@@ -30,13 +30,13 @@ body {
     
 } 
 
-.navbar {
-    
-       
-}
-
 .nav a {
-    color: antiquewhite;
+        margin: 24px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: rgb(169, 106, 28);
+        list-style: none; 
+     
 }
 
 .nav-menu {
@@ -45,6 +45,7 @@ body {
     padding: 20px;
     font-size: 1.6rem;
     text-decoration: none;
+    background-color: #302d2d;
 }
 
 .active, .button:hover {
