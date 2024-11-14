@@ -1,60 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: rgb(200, 178, 150);
+    background-color: rgb(38, 33, 25);
     height: 100vh;
-}
-
-.header {
-    padding: 10px;
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 900;   
-    font-style: normal;
-    font-size: 2rem;
-    color: #212122;
-} 
-
-.header__page-tittle {
-    margin: 0;
-    text-align: center;
-    color: rgb(138, 120, 97);
-    
-} 
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-   
-}
-
-.navbar a {
-   margin: 24px;
-   font-size: 1.4rem;
-   font-weight: bold;
-   color: rgb(169, 106, 28);
-   list-style: none; 
-} 
-
-.navbar a:hover {
-    color: black;
-    cursor: pointer;
-}
-
-.active, .btn:hover {
-    background-color: rgb(202, 219, 219);
-
 }
 
 .main_container {
     width: 70%;
-    height: 600px;
+    height: 500px;
     position: absolute;
     left: 50%;
-    top: 65%;
-    transform: translate(-50%, -65%) ;
+    top: 75%;
+    transform: translate(-50%, -75%) ;
     background-size: 100% 100%;
     box-shadow: 1px 1px 20px  5px black;
     animation: slider 15s infinite linear;

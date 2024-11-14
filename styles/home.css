@@ -1,56 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    height: 100vh;
-}
-
 body {
     display: flex;
     flex-direction: column;
     height: 100%;  
-}
-
-.header {
-    background-color: rgba(5, 2, 2, 0.853);
-    padding: 15px;
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 900;   
-    font-style: normal;
-    font-size: 2rem;
-} 
-
-.header__page-tittle {
-    margin: 0;
-    text-align: center;
-    color: rgb(138, 120, 97);
-    
-} 
-
-.nav a {
-        margin: 24px;
-        font-size: 1.4rem;
-        font-weight: bold;
-        color: rgb(169, 106, 28);
-        list-style: none; 
-     
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 1.6rem;
-    text-decoration: none;
-    background-color: #302d2d;
-}
-
-.active, .button:hover {
-    background-color: #666;
-    color: rgb(229, 147, 147);
 }
 
 .hero {
