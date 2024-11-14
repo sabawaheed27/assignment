@@ -10,45 +10,51 @@ html {
 
 body {
     height: 100%;
+   
 }
 
 .header {
-    padding: 24px;
-    background-color: rgb(184, 135, 102);
-    display: flex;
-    justify-content: space-around;
+    background-color: #d9a577;   
+    padding: 15px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 900;   
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+.header h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: ;
 }
 
 .navbar {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9a577;
+    padding: 20px;
 }
 
 .navbar a {
     text-decoration: none;
-    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 900;
-    color: rgb(237, 193, 138);
+    color: rgb(155, 104, 43);
 }
 
 .navbar a:hover {
     cursor: pointer;
     color: beige; 
-}
 
+}
 
 .active, .btn:hover {
     background-color: #d9a577;
-}
-
-.logo {
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 2.8rem;
 }
 
 .hero-image {
