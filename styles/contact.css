@@ -10,31 +10,44 @@ html {
 
 body {
     height: 100%;
-   
+  
 }
 
 .header {
-    background-color: #d9a577;   
-    padding: 15px;
+    background-color: #212122;
+    padding: 10px;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 900;   
     font-style: normal;
-    font-size: 1.4rem;
-}
+    font-size: 2rem;
+    color: #212122;
+    
+} 
 
-.header h1 {
-    justify-content: center;
+.header__page-tittle {
+    margin: 0;
     text-align: center;
-
-}
+    color: rgb(138, 120, 97);
+    
+} 
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d9a577;
-    padding: 20px;
+    padding: 0;
+    background-color: #212122;
+   
 }
+
+.navbar a {
+    margin: 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(169, 106, 28);
+    list-style: none; 
+} 
+ 
 
 .navbar a {
     text-decoration: none;
